@@ -1,3 +1,4 @@
 #!/usr/bin/python
-import services
-services.manage()
+set -e
+service apache2 restart
+
